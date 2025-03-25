@@ -21,13 +21,7 @@ DOMAIN-SUFFIX,openai.com,Proxy
 DOMAIN-SUFFIX,anthropic.com,Proxy
 DOMAIN-SUFFIX,netflav.com,Proxy
 
-# ========== 直连规则 ==========
-# 国内域名直连
-DOMAIN-SUFFIX,cn,DIRECT
-DOMAIN-KEYWORD,weibo,DIRECT
-DOMAIN-KEYWORD,baidu,DIRECT
 
-# 国内IP直连
 GEOIP,CN,DIRECT
 
 # ========== 最终规则 ==========
